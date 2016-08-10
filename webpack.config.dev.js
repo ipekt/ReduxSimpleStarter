@@ -27,7 +27,4 @@ export default {
       {test: /\.js$/, include: path.join(__dirname, 'src'), exclude: /node_modules/, loaders: ['babel']},
     ]
   },
-  resolve: {
-    extensions: ['', '.js', '.jsx']
-  },
 };
