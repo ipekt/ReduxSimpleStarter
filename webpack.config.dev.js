@@ -4,7 +4,7 @@ import path from 'path';
 export default {
   debug: true,
   devtool: 'cheap-module-eval-source-map',
-  noInfo: false,
+  noInfo: true,
   entry: [
     'webpack-hot-middleware/client?reload=true', //note that it reloads the page if hot module reloading fails.
     './src/index.js'
