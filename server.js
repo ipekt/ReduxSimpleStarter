@@ -7,7 +7,7 @@ const port = 3000;
 let targetEntry = 'http://localhost:' + port + '/';
 config.entry.unshift("webpack-dev-server/client?" + targetEntry);
 
-new WebpackDevServer(webpack(config), {hot: true, stats: {colors: true}})
+new WebpackDevServer(webpack(config), {hot: true, inline: true, stats: {colors: true}})
   .listen(port, 'localhost', (err) => {
     if (err) {
       console.log(err);
