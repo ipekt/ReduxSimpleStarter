@@ -12,4 +12,3 @@ export function fetchWeather(city) {
     payload: request
   };
 }
-
