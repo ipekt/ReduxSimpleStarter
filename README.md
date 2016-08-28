@@ -1,5 +1,7 @@
 # Modern React with Redux Course
 
-## 5 Day Weather Forecast
+## Create/Fetch/Delete blog posts & use redux form
 
-![Alt text](/weather-forecast.png "Weather Forecast App")
+[Redux Blog Post API](http://reduxblog.herokuapp.com/)
+
+![Alt text](/redux-blog.png "Redux Blog App")
